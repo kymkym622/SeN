@@ -16,7 +16,7 @@ public class CalculatorTest {
 	public void testsub(){
 		Calculator cal = new Calculator();
 		cal.sub(50,  20);
-		assertEquals(20, cal.getResult());
+		assertEquals(30, cal.getResult());
 	}
 
 }
